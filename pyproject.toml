@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sac3"
+version = "0.1.0"
+description = ""
+authors = ["Isidora <isidora.tourni@sandboxquantum.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "0.28.0"
+transformers = "^4.44.2"
+numpy = "^2.1.1"
+triton = "2.0.0"
+peft = "^0.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
